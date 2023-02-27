@@ -9,3 +9,5 @@ jobs:
   update-release-tags:
     name: Update release tags
     uses: bewuethr/workflows/.github/workflows/releasetracker.yml@main
+    permissions:
+      contents: write
