@@ -18,10 +18,7 @@ inputs:
 outputs:
   output:
     description: Description of output
-    value: ${{ steps.getbranchname.outputs.name }}
-  date:
-    description: The date portion of the branch name
-    value: ${{ steps.stepid.outputs.output }}
+    value: ${{ steps.stepid.outputs.name }}
 
 runs:
   using: composite
